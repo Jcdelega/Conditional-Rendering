@@ -17,8 +17,8 @@ const InputNumber=({randomNumber})=>{
             {
                 aux === randomNumber ? 
                     (<Messages text={`Congrats you guessed my number ${randomNumber}`}/>):
-                        aux < randomNumber? (<Messages text={`Your number is lower`}/> ):
-                            (<Messages text={`Your number is greater`} />)
+                        aux < randomNumber? (<Messages text={`Your number is lower 🔻`}/> ):
+                            (<Messages text={`Your number is greater 🔺`} />)
             }
             <div>
                 <i className={`bi bi-dice-${aux}`}> Your dice</i>
